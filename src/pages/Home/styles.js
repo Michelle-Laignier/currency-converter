@@ -25,7 +25,7 @@ export const Container = styled.div`
   }
 `
 
-export const Convert = styled.div`
+/*export const Convert = styled.div`
   display: flex;
   gap: 2rem;
 
@@ -37,5 +37,38 @@ export const Convert = styled.div`
   .inputName p {
     font-size: 1.2rem;
     margin-bottom: 12px;
+  }
+`*/
+
+export const Convert = styled.div`
+  display: grid;
+  grid-template-columns: 20% 35% 35%;
+  width: -webkit-fill-available;
+  margin: 0 1rem;
+  grid-template-rows: 1fr;
+  gap: 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .inputName 
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 12px;
+    }
+
+    input {
+      width: -webkit-fill-available;
+    }
+`
+
+export const Result = styled.div`
+  p {
+    font-size: 3rem;
+    font-weight: 500;
   }
 `

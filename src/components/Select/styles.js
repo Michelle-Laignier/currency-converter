@@ -4,7 +4,8 @@ export const Container = styled.select`
   border: none;
   border-radius: 10px;
   height: 40px;
-  width: 15vw;
+  padding-left: 1rem;
+  width: -webkit-fill-available;
 
   @media (max-width: 768px) {
     width: -webkit-fill-available;

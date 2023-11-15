@@ -16,7 +16,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background-image: url("../../public/bg2.jpg");
+    background-image: url("../../src/assets/bg2.jpg");
     
     align-items: center;
     display: flex;
