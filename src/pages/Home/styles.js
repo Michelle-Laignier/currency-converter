@@ -25,21 +25,6 @@ export const Container = styled.div`
   }
 `
 
-/*export const Convert = styled.div`
-  display: flex;
-  gap: 2rem;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .inputName p {
-    font-size: 1.2rem;
-    margin-bottom: 12px;
-  }
-`*/
-
 export const Convert = styled.div`
   display: grid;
   grid-template-columns: 20% 35% 35%;
@@ -54,7 +39,7 @@ export const Convert = styled.div`
     gap: 1rem;
   }
 
-  .inputName 
+  .inputName {
 
     p {
       font-size: 1.2rem;
@@ -64,6 +49,7 @@ export const Convert = styled.div`
     input {
       width: -webkit-fill-available;
     }
+  }
 `
 
 export const Result = styled.div`

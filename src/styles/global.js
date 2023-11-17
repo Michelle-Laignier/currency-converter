@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
+import bg2 from "../../src/assets/bg2.jpg"
+
 export default createGlobalStyle`
   :root {
     font-size: 16px;
@@ -16,7 +18,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background-image: url("../../src/assets/bg2.jpg");
+    background-image: url(${bg2});
     
     align-items: center;
     display: flex;
